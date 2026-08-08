@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.high_commission.rafi.DocumentCheckListViewController">
+    <children>
+        <Label layoutX="150.0" layoutY="20.0" text="Document Checklist" style="-fx-font-size: 16px; -fx-font-weight: bold;" />
+
+        <CheckBox fx:id="passportCopyCB" layoutX="50.0" layoutY="70.0" text="Passport Copy" />
+        <CheckBox fx:id="passportPhotoCB" layoutX="50.0" layoutY="100.0" text="Passport Photo" />
+        <CheckBox fx:id="bankStatementCB" layoutX="50.0" layoutY="130.0" text="Bank Statement" />
+        <CheckBox fx:id="invitationLetterCB" layoutX="50.0" layoutY="160.0" text="Invitation Letter" />
+        <CheckBox fx:id="travelItineraryCB" layoutX="50.0" layoutY="190.0" text="Travel Itinerary" />
+        <CheckBox fx:id="healthInsuranceCB" layoutX="50.0" layoutY="220.0" text="Health Insurance" />
+
+        <Label fx:id="statusLabel" layoutX="50.0" layoutY="260.0" text="0 / 6 submitted" />
+
+        <Button layoutX="50.0" layoutY="300.0" mnemonicParsing="false" onAction="#verifyButtonOA" text="Verify Completion" />
+        <Button layoutX="220.0" layoutY="300.0" mnemonicParsing="false" onAction="#backButtonOA" text="Back" />
+    </children>
+</AnchorPane>
