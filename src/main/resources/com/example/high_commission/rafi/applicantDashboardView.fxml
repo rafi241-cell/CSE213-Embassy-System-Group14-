@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.high_commission.rafi.ApplicantDashboardController">
+   <children>
+      <Label layoutX="238.0" layoutY="14.0" text="Applicant Dashboard" />
+      <Button layoutX="54.0" layoutY="64.0" mnemonicParsing="false" onAction="#submitNewApplicationButtonOA" text="Submit New Application" />
+      <Button layoutX="56.0" layoutY="188.0" mnemonicParsing="false" onAction="#bookAppointmentButtonOA" text="Book Appointment" />
+      <Button layoutX="56.0" layoutY="146.0" mnemonicParsing="false" onAction="#documentChecklistButtonOA" text="Document Checklist" />
+      <Button layoutX="54.0" layoutY="106.0" mnemonicParsing="false" onAction="#viewMyApplicationButtonOA" text="View My Application" />
+      <Button layoutX="56.0" layoutY="227.0" mnemonicParsing="false" onAction="#logoutButtonOA" text="LogOut" />
+   </children>
+</AnchorPane>
